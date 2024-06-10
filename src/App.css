@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.timer{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+  align-items: center;
+} 
+.timer p{
+  font-size:100px;
+}
+.btns{
+  margin: auto;
+  margin-top:50px;
+  width:25%;
+  display: flex;
+  justify-content: space-between;
+}
+.btns button{
+  background-color:deepskyblue;
+  border:2px solid black;
+  border-radius:15px;
+  padding:10px 25px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
